@@ -1,0 +1,47 @@
+.addButton{
+    text-decoration: none;
+    background-color: #f5b921;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    margin-top: 50px;
+ }
+
+ .button-container{
+    margin: 10px;
+ }
+
+ .table-wrapper {
+    overflow-x: auto;
+    position: relative;
+    margin: 30px;
+    margin-right: 30px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-header {
+    background-color: #1f5156;
+    color: white;
+    padding: 10px;
+  }
+  
+  .custom-row:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-row:hover {
+    background-color: #ddd;
+  }
+  
+  .custom-cell {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
